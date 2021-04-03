@@ -1,15 +1,18 @@
 doctype html
 html
   head
-    title Notes
-
+    title Tasks
+    link(href='/static/main.css' rel='stylesheet')
+ 
+    link(rel='preconnect' href='https://fonts.gstatic.com')
+    link(href='https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;700&display=swap' rel='stylesheet') 
   body
-    header
-      h1 .
-        a(href='/') Notes
+    header.header
+      h1.logo
+        a(href='/') Tasks
 
-      naw
-        a(href='/create') Create note
-        a(href='archive') Archive
+      nav.nav
+        a(href='/tasks') tasks
+        a(href='/archive') archive
 
     block content
