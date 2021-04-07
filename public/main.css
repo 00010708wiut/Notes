@@ -1,6 +1,7 @@
 :root {
 	font-size: 18px;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Times New Roman', Times, serif;
+	
 }
 
 * {
@@ -11,7 +12,8 @@
 
 a {
 	text-decoration: none;
-	color: #444
+	color: #444;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 .content,
@@ -24,7 +26,8 @@ a {
 	display: flex;
 	justify-content: space-between;
 	align-items: baseline;
-	border-bottom: 1px solid #ccc;
+	border-bottom: 1px solid rgb(248, 164, 8);
+	background-color: orange;
 }
 
 .logo {
@@ -32,20 +35,32 @@ a {
 	font-size: 4rem;
 }
 
+.logo > a {
+	font-size: 50px;
+	padding: 2px;
+	background-color: orange;
+	text-decoration: none;
+	font-family: 'Times New Roman', Times, serif;
+}
+
 .logo > a:hover {
-	color: tomato;
+	color: yellow;
+	background-color: orange;
 }
 
 .nav > a {
+	color: #fff;
 	display: inline-block;
 	padding: 5px 15px;
 	font-size: 1.5rem;
 	font-variant-caps: small-caps;
+	margin: 5px;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 
 .nav > a:hover {
-	color: tomato;
+	color: yellow;
 }
 
 /* homepage styles */
@@ -53,26 +68,36 @@ a {
 .content-title {
 	margin-top: 150px;
 	padding: 20px 0 0 20px;
-	font-size: 3.5rem;
+	font-size: 2.5rem;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+	text-decoration: none;
+	color: rgb(255, 81, 0);
 }
 
 .featured {
 	display: inline-block;
-	margin: 15px 0 0 20px;
-	padding: 10px 20px;
-	background-color: tomato;
-	color: #fff;
-	font-size: 1.4rem;
+	margin: 12px 0 0 16px;
+	padding: 8px 16px;
+	background-color: rgb(245, 192, 19);
+	color: rgb(255, 255, 255);
+	font-size: 2rem;
+	font-family: 'Times New Roman', Times, serif;
 }
+
 
 /* create page styles */
 .form {
 	max-width: 50%;
 	padding: 20px;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 .form-title {
 	padding: 20px 0 0 20px;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 .form > label {
@@ -90,13 +115,13 @@ a {
 
 .btn {
 	display: inline-block;
-	background: tomato;
+	background: orange;
 	margin-top: 15px;
 	font-size: 1.3rem;
 	padding: 10px 20px;
 	border: none;
 	color: #fff;
-	font-family: inherit;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 .btn:hover {
@@ -105,6 +130,7 @@ a {
 
 /* notes page */
 .task-wrapper {
+	text-decoration: none;
 	margin-top: 20px;
 	max-width: 60%;
 	display: flex;
@@ -124,7 +150,8 @@ a {
 	display: inline-block;
 	padding: 5px 10px;
 	color: #fff;
-	background: tomato;
+	background: red;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 .delete:hover {
@@ -135,6 +162,7 @@ a {
 /* task detail page */
 .task-title {
 	padding: 20px 0 0 20px;
+	font-family: 'Times New Roman', Times, serif;
 }
 
 .task-desc {
